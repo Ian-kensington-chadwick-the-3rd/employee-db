@@ -9,23 +9,13 @@ app.use(express.json());
 
 const db = mysql.createConnection(
     {
-      host: 'localhost',
-      // MySQL username,
+      host: '127.0.0.1',
       user: 'root',
-      // TODO: Add MySQL password
-      password: 'Godbless1!',
+      password: 'password',
       database: 'employee_db'
     },
     console.log(`Connected to the employee_db database.`)
-  ).promise()
- db.query('SELECT * FROM employee_db', function (err, results) {
-    console.log(results);
-  });
-  
-
-
-
-
+  )
 
   //   db.query(`DELETE FROM favorite_books WHERE id = ?` (err, result) => {
 //     if (err) {
@@ -45,3 +35,6 @@ const db = mysql.createConnection(
     console.log(`Server running on port ${PORT}`);
   });
   
+  module.exports = {
+    db
+  }
