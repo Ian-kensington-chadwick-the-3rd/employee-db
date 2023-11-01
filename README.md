@@ -1,7 +1,7 @@
-# Note-maker
+# employee-db
 
 
-![logo-generator-example](./Images/11-express-homework-demo.gif)
+![logo-generator-example](./images/Untitled_%20Nov%201,%202023%201_38%20AM.gif)
 
 
 ## Table of Contents
@@ -17,13 +17,13 @@
 
 ## Description
 
-Note-maker Is a fullstack website application that uses express and node.js to save your data to a data base json folder.
+employee-db is server side application that uses sql, node, express, and inquirer to give you the ability to view,add,update employees,roles, managers, and departments in your database application
 
 ## what I learned
 
-I learned how to display data on a live server using node.js, express, and fs.
-I learned how to input middleware.
-I learned how to deplay an application to heroku.
+* I learned how to use sql to create tables within an database
+* I learned how to query using mysql2 npm package
+* I learned how to not cry
     
 
  
@@ -33,13 +33,13 @@ I learned how to deplay an application to heroku.
 [![Static Badge](https://img.shields.io/badge/inquirer-orange)](https://www.npmjs.com/package/inquirer/v/8.2.4) 
 [![Static Badge](https://img.shields.io/badge/javascript-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
 [![Static Badge](https://img.shields.io/badge/express-purple)](https://www.npmjs.com/package/express) 
-
-
+[![Static Badge](https://img.shields.io/badge/MySQL-blue)](https://www.mysql.com/) 
+[![Static Badge](https://img.shields.io/badge/mysql2-npm_package-black)](https://www.npmjs.com/package/mysql2) 
 ## Installation
 
-* To install Note-maker you need to `git clone git@github.com:Ian-kensington-chadwick-the-3rd/Note-maker.git`.
+* To install employee-db you need to `git@github.com:Ian-kensington-chadwick-the-3rd/employee-db.git`.
 * Dont forget to install your depenencies by typing `npm i ` in your terminal
-* If you would like to visit the live server go here =>[![Static Badge](https://img.shields.io/badge/Note-maker-green)](https://floating-waters-15694-352739f74a95.herokuapp.com/) 
+* run `npm start`
 
 ## Questions
 
